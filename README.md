@@ -1,4 +1,4 @@
-# Ai to cocaine Replacer
+# AI to cocaine Replacer
 
 Chrome extension that replaces "Ai" with "cocaine" on all web pages.
 
