@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Replacer",
+  "version": "1.0.0",
+  "description": "Replaces 'AI' to 'cocaine' on all web pages",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Replacer"
+  }
+}
